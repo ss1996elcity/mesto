@@ -13,6 +13,6 @@
   .header{
 display: flex;
 margin: 28px 0 0;
-min-width: 320px;
+width: 100%;
   }
 }
