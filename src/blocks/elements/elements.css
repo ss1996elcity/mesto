@@ -1,0 +1,35 @@
+@import url(./element/element.css);
+
+.elements{
+    display: grid; 
+    margin: 0 auto 71px; 
+    grid-template-columns: repeat(3, 282px); 
+    grid-template-rows: repeat(auto-fill, minmax(361px, 1fr)); 
+    grid-column-gap: 18px; 
+    grid-row-gap: 21px; 
+    justify-content: center;
+    }
+    
+    @media screen and (min-width: 320px) and (max-width:720px) { 
+    .elements { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 282px); 
+    grid-template-rows: repeat(auto-fill, minmax(361px, 1fr)); 
+    justify-items: center;
+    align-items: center;
+    min-width: 282px;
+    margin: 0 19px;
+    } 
+    }
+    
+    @media screen and (min-width: 720px) and (max-width:900px) { 
+      .elements { 
+      display: grid;
+      grid-template-columns: repeat(2, 282px); 
+      grid-template-rows: repeat(auto-fill, minmax(361px, 1fr)); 
+      justify-items: center;
+      align-items: center;
+      min-width: 282px;
+      margin: 0 19px;
+      } 
+      }

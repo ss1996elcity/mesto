@@ -1,0 +1,100 @@
+
+.element {
+    position: relative;
+  max-width: 282px;
+  display: flex;
+  flex-direction: column;
+  display: flex; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  
+  }
+  
+  .element__image{
+  width: 100%;
+  }
+  
+  .element__delete-button{
+  position: absolute; 
+  top: 20px; 
+  right: 20px; 
+  border: none; 
+  background-color: transparent; 
+  height: 18px; 
+  width: 19.3px; 
+  transition: .2s; 
+  outline: none; 
+  object-fit: contain; 
+  
+  } 
+  
+  .element__delete-button:hover { 
+  opacity: 0.6; 
+  cursor: pointer 
+  }
+  
+  .element__description{
+   
+  padding: 0;
+  height: 79px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  }
+  
+  .element__title{
+  margin: 25px 21px 31px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  }
+  
+  .element__like-button { 
+    background-color: transparent;
+    margin-right: 21px;
+    border: none; 
+    height: 19px; 
+    width: 22px;
+    
+    transition: .2s; 
+    outline: none; 
+    background-image: url(/src/filies/heart.svg); 
+    background-repeat: no-repeat;
+  background-size: contain;
+  
+  } 
+  
+  .element__like-button:hover { 
+  opacity: 0.5; 
+  cursor: pointer 
+  } 
+  
+  .element__like-button-heart_active{
+    background-color: transparent;
+    margin-right: 21px;
+    border: none; 
+    height: 18.13px; 
+    height: 19px; 
+    width: 22px;
+    transition: .2s; 
+    outline: none; 
+    background-image: url(/src/filies/heartBlack.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .element__image { 
+  max-height: 282px; 
+  min-width: 282px; 
+  object-fit: cover; 
+  object-position: center; 
+  /* border-radius: 10px 10px 0px 0px; */ 
+  } 
+  

@@ -1,0 +1,86 @@
+
+.additor { 
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+    height: 100vh; 
+    position: fixed; 
+    top: 0px; 
+    left: 0px; 
+    background-color: rgba(0, 0, 0, 0.5);  
+    transition: .2s;  
+    } 
+    
+    .additor__opened { 
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      width: 100vw; 
+      height: 100vh; 
+      position: fixed; 
+      top: 0px; 
+      left: 0px; 
+      background-color: rgba(0, 0, 0, 0.8);  
+      transition: .2s;  
+      } 
+    
+   
+    
+    .additor__submit-button { 
+    width: 358px; 
+    height: 50.15px; 
+    background: #000000; 
+    border: none; 
+    border-radius: 2px;  
+    padding: 0;  
+    font-family: inter, Arial, Helvetica, sans-serif;  
+    font-style: normal;  
+    font-weight: normal;  
+    font-size: 18px; 
+    line-height: 22px; 
+    text-align: center; 
+    color: #FFFFFF; 
+    border-radius: 2px; 
+    margin-bottom: 36px; 
+    
+    } 
+    
+    .additor__submit-button:hover { 
+    background-color: rgba(0, 0, 0, 0.8); 
+    cursor: pointer 
+    } 
+    
+    @media screen and (max-width: 500px) { 
+    .additor__submit-button { 
+    max-width: 90%; 
+    } 
+    } 
+    
+    
+    .additor__close-button { 
+    position: absolute; 
+    width: 32px;
+    height: 32px;
+    background-color: transparent; 
+    border: none;  
+    top: -32px; 
+    right: -32px; 
+    padding: 0; 
+    } 
+    
+    .additor__close-button { 
+    opacity: 0.6; 
+    cursor: pointer 
+    } 
+    
+    .additor__close-button-image {
+    width: 32px;
+    height: 32px;
+    object-fit: cover; 
+      } 
+    
+    .additor__close-button-image:hover{
+    opacity: 0.6;
+    }
+    
